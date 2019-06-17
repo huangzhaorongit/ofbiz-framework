@@ -171,6 +171,10 @@ dependencies {
     compile 'org.jsoup:jsoup:1.11.3'
     compile 'io.jsonwebtoken:jjwt:0.9.1'
 
+
+    // add mysql lib
+   // compile 'mysql-connector-java:5.1.24'
+
     // ofbiz unit-test compile libs
     testCompile 'org.mockito:mockito-core:2.23.0'
 
@@ -182,6 +186,8 @@ dependencies {
     runtime 'org.apache.axis2:axis2-transport-http:1.7.8'
     runtime 'org.apache.axis2:axis2-transport-local:1.7.8'
     runtime 'org.apache.derby:derby:10.14.2.0'
+    // add mysql lib
+    runtime 'mysql:mysql-connector-java:5.1.24'
     runtime 'org.apache.geronimo.specs:geronimo-jaxrpc_1.1_spec:1.1'
     runtime 'org.apache.logging.log4j:log4j-1.2-api:2.11.1' // for external jars using the old log4j1.2: routes logging to log4j 2
     runtime 'org.apache.logging.log4j:log4j-core:2.11.1' // the implementation of the log4j 2 API
