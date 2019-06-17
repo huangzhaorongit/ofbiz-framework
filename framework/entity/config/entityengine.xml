@@ -538,7 +538,7 @@ access. For a detailed description see the core/docs/entityconfig.html file.
                 For more look at http://markmail.org/thread/5sivpykv7xkl66px and http://commons.apache.org/dbcp/configuration.html-->
         <!-- <jndi-jdbc jndi-server-name="localjndi" jndi-name="java:/MySqlDataSource" isolation-level="Serializable"/> -->
     </datasource>
-    <datasource name="laliyunmysqltenant"
+    <datasource name="aliyunmysqltenant"
                 helper-class="org.apache.ofbiz.entity.datasource.GenericHelperDAO"
                 field-type-name="mysql"
                 check-on-start="true"
